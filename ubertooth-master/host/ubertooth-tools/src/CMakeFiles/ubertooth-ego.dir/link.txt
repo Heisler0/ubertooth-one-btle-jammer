@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/ubertooth-ego.dir/ubertooth-ego.c.o  -o ubertooth-ego -Wl,-rpath,/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src: ../../libubertooth/src/libubertooth.so.1.0 -lusb-1.0 -lbtbb -lbluetooth 

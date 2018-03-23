@@ -1,4 +1,4 @@
-# Install script for directory: /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src
+# Install script for directory: /home/chris/Documents/ubertooth-git/host/libubertooth/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -51,9 +51,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xsharedlibsx" OR NOT CMAKE_INSTALL_C
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/libubertooth.so.1.0"
-    "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/libubertooth.so.1"
-    "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/libubertooth.so"
+    "/home/chris/Documents/ubertooth-git/host/libubertooth/src/libubertooth.so.1.0"
+    "/home/chris/Documents/ubertooth-git/host/libubertooth/src/libubertooth.so.1"
+    "/home/chris/Documents/ubertooth-git/host/libubertooth/src/libubertooth.so"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libubertooth.so.1.0"
@@ -71,11 +71,11 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xheadersx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth.h"
-    "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth_callback.h"
-    "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth_control.h"
-    "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth_fifo.h"
-    "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth_interface.h"
+    "/home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth.h"
+    "/home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth_callback.h"
+    "/home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth_control.h"
+    "/home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth_fifo.h"
+    "/home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth_interface.h"
     )
 endif()
 

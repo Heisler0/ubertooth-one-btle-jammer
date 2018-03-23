@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chris/Documents/ubertooth-git/src/ubertooth-master/host
+CMAKE_SOURCE_DIR = /home/chris/Documents/ubertooth-git/host
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chris/Documents/ubertooth-git/src/ubertooth-master/host
+CMAKE_BINARY_DIR = /home/chris/Documents/ubertooth-git/host
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(CMAKE_COMMAND) -E cmake_progress_start /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/CMakeFiles /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/python/specan_ui/CMakeFiles/progress.marks
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f CMakeFiles/Makefile2 python/specan_ui/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/CMakeFiles 0
+	cd /home/chris/Documents/ubertooth-git/host && $(CMAKE_COMMAND) -E cmake_progress_start /home/chris/Documents/ubertooth-git/host/CMakeFiles /home/chris/Documents/ubertooth-git/host/python/specan_ui/CMakeFiles/progress.marks
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f CMakeFiles/Makefile2 python/specan_ui/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/Documents/ubertooth-git/host/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f CMakeFiles/Makefile2 python/specan_ui/clean
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f CMakeFiles/Makefile2 python/specan_ui/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f CMakeFiles/Makefile2 python/specan_ui/preinstall
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f CMakeFiles/Makefile2 python/specan_ui/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f CMakeFiles/Makefile2 python/specan_ui/preinstall
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f CMakeFiles/Makefile2 python/specan_ui/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/chris/Documents/ubertooth-git/host && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 python/specan_ui/CMakeFiles/ubertooth-specan-ui.dir/rule:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f CMakeFiles/Makefile2 python/specan_ui/CMakeFiles/ubertooth-specan-ui.dir/rule
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f CMakeFiles/Makefile2 python/specan_ui/CMakeFiles/ubertooth-specan-ui.dir/rule
 .PHONY : python/specan_ui/CMakeFiles/ubertooth-specan-ui.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ ubertooth-specan-ui: python/specan_ui/CMakeFiles/ubertooth-specan-ui.dir/rule
 
 # fast build rule for target.
 ubertooth-specan-ui/fast:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f python/specan_ui/CMakeFiles/ubertooth-specan-ui.dir/build.make python/specan_ui/CMakeFiles/ubertooth-specan-ui.dir/build
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f python/specan_ui/CMakeFiles/ubertooth-specan-ui.dir/build.make python/specan_ui/CMakeFiles/ubertooth-specan-ui.dir/build
 .PHONY : ubertooth-specan-ui/fast
 
 # Convenience name for target.
 python/specan_ui/CMakeFiles/specan.dir/rule:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f CMakeFiles/Makefile2 python/specan_ui/CMakeFiles/specan.dir/rule
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f CMakeFiles/Makefile2 python/specan_ui/CMakeFiles/specan.dir/rule
 .PHONY : python/specan_ui/CMakeFiles/specan.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ specan: python/specan_ui/CMakeFiles/specan.dir/rule
 
 # fast build rule for target.
 specan/fast:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f python/specan_ui/CMakeFiles/specan.dir/build.make python/specan_ui/CMakeFiles/specan.dir/build
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f python/specan_ui/CMakeFiles/specan.dir/build.make python/specan_ui/CMakeFiles/specan.dir/build
 .PHONY : specan/fast
 
 # Help Target
@@ -211,6 +211,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/chris/Documents/ubertooth-git/host && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

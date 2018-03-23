@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = -DVERSION=\"1.0\"
 
-C_INCLUDES = -I/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src -I/usr/include/libusb-1.0 -I/home/chris/Documents/libbtbb-git/pkg/libbtbb-git/usr/include -I/usr/include/bluetooth 
+C_INCLUDES = -I/home/chris/Documents/ubertooth-git/host/libubertooth/src -I/usr/include/libusb-1.0 -I/home/chris/Documents/libbtbb-git/pkg/libbtbb-git/usr/include -I/usr/include/bluetooth 
 

@@ -10,9 +10,9 @@
 stdint.h
 -
 
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/ubertooth-tools/src/dfu.h
+/home/chris/Documents/ubertooth-git/host/ubertooth-tools/src/dfu.h
 
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/ubertooth-tools/src/ubertooth-dfu.c
+/home/chris/Documents/ubertooth-git/host/ubertooth-tools/src/ubertooth-dfu.c
 getopt.h
 -
 stdio.h
@@ -24,9 +24,9 @@ stdlib.h
 unistd.h
 -
 ubertooth.h
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/ubertooth-tools/src/ubertooth.h
+/home/chris/Documents/ubertooth-git/host/ubertooth-tools/src/ubertooth.h
 dfu.h
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/ubertooth-tools/src/dfu.h
+/home/chris/Documents/ubertooth-git/host/ubertooth-tools/src/dfu.h
 
 /usr/include/libusb-1.0/libusb.h
 stdint.h

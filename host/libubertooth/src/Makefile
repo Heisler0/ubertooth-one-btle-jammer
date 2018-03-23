@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chris/Documents/ubertooth-git/src/ubertooth-master/host
+CMAKE_SOURCE_DIR = /home/chris/Documents/ubertooth-git/host
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chris/Documents/ubertooth-git/src/ubertooth-master/host
+CMAKE_BINARY_DIR = /home/chris/Documents/ubertooth-git/host
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(CMAKE_COMMAND) -E cmake_progress_start /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/CMakeFiles /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/CMakeFiles/progress.marks
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f CMakeFiles/Makefile2 libubertooth/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/CMakeFiles 0
+	cd /home/chris/Documents/ubertooth-git/host && $(CMAKE_COMMAND) -E cmake_progress_start /home/chris/Documents/ubertooth-git/host/CMakeFiles /home/chris/Documents/ubertooth-git/host/libubertooth/src/CMakeFiles/progress.marks
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f CMakeFiles/Makefile2 libubertooth/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/Documents/ubertooth-git/host/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f CMakeFiles/Makefile2 libubertooth/src/clean
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f CMakeFiles/Makefile2 libubertooth/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f CMakeFiles/Makefile2 libubertooth/src/preinstall
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f CMakeFiles/Makefile2 libubertooth/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f CMakeFiles/Makefile2 libubertooth/src/preinstall
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f CMakeFiles/Makefile2 libubertooth/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/chris/Documents/ubertooth-git/host && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libubertooth/src/CMakeFiles/ubertooth.dir/rule:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f CMakeFiles/Makefile2 libubertooth/src/CMakeFiles/ubertooth.dir/rule
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f CMakeFiles/Makefile2 libubertooth/src/CMakeFiles/ubertooth.dir/rule
 .PHONY : libubertooth/src/CMakeFiles/ubertooth.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ ubertooth: libubertooth/src/CMakeFiles/ubertooth.dir/rule
 
 # fast build rule for target.
 ubertooth/fast:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f libubertooth/src/CMakeFiles/ubertooth.dir/build.make libubertooth/src/CMakeFiles/ubertooth.dir/build
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f libubertooth/src/CMakeFiles/ubertooth.dir/build.make libubertooth/src/CMakeFiles/ubertooth.dir/build
 .PHONY : ubertooth/fast
 
 ubertooth.o: ubertooth.c.o
@@ -177,7 +177,7 @@ ubertooth.o: ubertooth.c.o
 
 # target to build an object file
 ubertooth.c.o:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f libubertooth/src/CMakeFiles/ubertooth.dir/build.make libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth.c.o
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f libubertooth/src/CMakeFiles/ubertooth.dir/build.make libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth.c.o
 .PHONY : ubertooth.c.o
 
 ubertooth.i: ubertooth.c.i
@@ -186,7 +186,7 @@ ubertooth.i: ubertooth.c.i
 
 # target to preprocess a source file
 ubertooth.c.i:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f libubertooth/src/CMakeFiles/ubertooth.dir/build.make libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth.c.i
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f libubertooth/src/CMakeFiles/ubertooth.dir/build.make libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth.c.i
 .PHONY : ubertooth.c.i
 
 ubertooth.s: ubertooth.c.s
@@ -195,7 +195,7 @@ ubertooth.s: ubertooth.c.s
 
 # target to generate assembly for a file
 ubertooth.c.s:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f libubertooth/src/CMakeFiles/ubertooth.dir/build.make libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth.c.s
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f libubertooth/src/CMakeFiles/ubertooth.dir/build.make libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth.c.s
 .PHONY : ubertooth.c.s
 
 ubertooth_callback.o: ubertooth_callback.c.o
@@ -204,7 +204,7 @@ ubertooth_callback.o: ubertooth_callback.c.o
 
 # target to build an object file
 ubertooth_callback.c.o:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f libubertooth/src/CMakeFiles/ubertooth.dir/build.make libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_callback.c.o
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f libubertooth/src/CMakeFiles/ubertooth.dir/build.make libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_callback.c.o
 .PHONY : ubertooth_callback.c.o
 
 ubertooth_callback.i: ubertooth_callback.c.i
@@ -213,7 +213,7 @@ ubertooth_callback.i: ubertooth_callback.c.i
 
 # target to preprocess a source file
 ubertooth_callback.c.i:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f libubertooth/src/CMakeFiles/ubertooth.dir/build.make libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_callback.c.i
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f libubertooth/src/CMakeFiles/ubertooth.dir/build.make libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_callback.c.i
 .PHONY : ubertooth_callback.c.i
 
 ubertooth_callback.s: ubertooth_callback.c.s
@@ -222,7 +222,7 @@ ubertooth_callback.s: ubertooth_callback.c.s
 
 # target to generate assembly for a file
 ubertooth_callback.c.s:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f libubertooth/src/CMakeFiles/ubertooth.dir/build.make libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_callback.c.s
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f libubertooth/src/CMakeFiles/ubertooth.dir/build.make libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_callback.c.s
 .PHONY : ubertooth_callback.c.s
 
 ubertooth_control.o: ubertooth_control.c.o
@@ -231,7 +231,7 @@ ubertooth_control.o: ubertooth_control.c.o
 
 # target to build an object file
 ubertooth_control.c.o:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f libubertooth/src/CMakeFiles/ubertooth.dir/build.make libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_control.c.o
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f libubertooth/src/CMakeFiles/ubertooth.dir/build.make libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_control.c.o
 .PHONY : ubertooth_control.c.o
 
 ubertooth_control.i: ubertooth_control.c.i
@@ -240,7 +240,7 @@ ubertooth_control.i: ubertooth_control.c.i
 
 # target to preprocess a source file
 ubertooth_control.c.i:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f libubertooth/src/CMakeFiles/ubertooth.dir/build.make libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_control.c.i
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f libubertooth/src/CMakeFiles/ubertooth.dir/build.make libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_control.c.i
 .PHONY : ubertooth_control.c.i
 
 ubertooth_control.s: ubertooth_control.c.s
@@ -249,7 +249,7 @@ ubertooth_control.s: ubertooth_control.c.s
 
 # target to generate assembly for a file
 ubertooth_control.c.s:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f libubertooth/src/CMakeFiles/ubertooth.dir/build.make libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_control.c.s
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f libubertooth/src/CMakeFiles/ubertooth.dir/build.make libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_control.c.s
 .PHONY : ubertooth_control.c.s
 
 ubertooth_fifo.o: ubertooth_fifo.c.o
@@ -258,7 +258,7 @@ ubertooth_fifo.o: ubertooth_fifo.c.o
 
 # target to build an object file
 ubertooth_fifo.c.o:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f libubertooth/src/CMakeFiles/ubertooth.dir/build.make libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_fifo.c.o
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f libubertooth/src/CMakeFiles/ubertooth.dir/build.make libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_fifo.c.o
 .PHONY : ubertooth_fifo.c.o
 
 ubertooth_fifo.i: ubertooth_fifo.c.i
@@ -267,7 +267,7 @@ ubertooth_fifo.i: ubertooth_fifo.c.i
 
 # target to preprocess a source file
 ubertooth_fifo.c.i:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f libubertooth/src/CMakeFiles/ubertooth.dir/build.make libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_fifo.c.i
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f libubertooth/src/CMakeFiles/ubertooth.dir/build.make libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_fifo.c.i
 .PHONY : ubertooth_fifo.c.i
 
 ubertooth_fifo.s: ubertooth_fifo.c.s
@@ -276,7 +276,7 @@ ubertooth_fifo.s: ubertooth_fifo.c.s
 
 # target to generate assembly for a file
 ubertooth_fifo.c.s:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f libubertooth/src/CMakeFiles/ubertooth.dir/build.make libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_fifo.c.s
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f libubertooth/src/CMakeFiles/ubertooth.dir/build.make libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_fifo.c.s
 .PHONY : ubertooth_fifo.c.s
 
 # Help Target
@@ -315,6 +315,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/chris/Documents/ubertooth-git/host && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

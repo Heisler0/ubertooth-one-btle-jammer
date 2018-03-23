@@ -1,4 +1,4 @@
-# Install script for directory: /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/ubertooth-tools
+# Install script for directory: /home/chris/Documents/ubertooth-git/host/ubertooth-tools
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/ubertooth-tools/src/cmake_install.cmake")
+  include("/home/chris/Documents/ubertooth-git/host/ubertooth-tools/src/cmake_install.cmake")
 
 endif()
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/python/specan_ui
+# Install script for directory: /home/chris/Documents/ubertooth-git/host/python/specan_ui
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,10 +38,10 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND /usr/bin/python /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/python/specan_ui/setup.py build -b /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/python/specan_ui/build install)
+  execute_process(COMMAND /usr/bin/python /home/chris/Documents/ubertooth-git/host/python/specan_ui/setup.py build -b /home/chris/Documents/ubertooth-git/host/python/specan_ui/build install)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE PROGRAM FILES "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/python/specan_ui/ubertooth-specan-ui")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE PROGRAM FILES "/home/chris/Documents/ubertooth-git/host/python/specan_ui/ubertooth-specan-ui")
 endif()
 

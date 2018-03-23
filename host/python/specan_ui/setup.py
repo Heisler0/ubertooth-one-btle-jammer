@@ -19,7 +19,7 @@ setup(
     url         = "https://github.com/greatscottgadgets/ubertooth/",
     license     = "GPL",
     version     = '',
-    package_dir = { '': '/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/python/specan_ui' },
+    package_dir = { '': '/home/chris/Documents/ubertooth-git/host/python/specan_ui' },
     packages    = ['specan'],
     classifiers=[
         'Development Status :: 5 - Beta',

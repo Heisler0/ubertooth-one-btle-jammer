@@ -1,4 +1,4 @@
-# Install script for directory: /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/doc/man
+# Install script for directory: /home/chris/Documents/ubertooth-git/host/doc/man
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,19 +39,19 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdocx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man1" TYPE FILE FILES
-    "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/doc/man/ubertooth-btle.1"
-    "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/doc/man/ubertooth-dump.1"
-    "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/doc/man/ubertooth-rx.1"
-    "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/doc/man/ubertooth-specan.1"
-    "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/doc/man/ubertooth-afh.1"
-    "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/doc/man/ubertooth-dfu.1"
-    "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/doc/man/ubertooth-ego.1"
-    "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/doc/man/ubertooth-scan.1"
-    "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/doc/man/ubertooth-util.1"
+    "/home/chris/Documents/ubertooth-git/host/doc/man/ubertooth-btle.1"
+    "/home/chris/Documents/ubertooth-git/host/doc/man/ubertooth-dump.1"
+    "/home/chris/Documents/ubertooth-git/host/doc/man/ubertooth-rx.1"
+    "/home/chris/Documents/ubertooth-git/host/doc/man/ubertooth-specan.1"
+    "/home/chris/Documents/ubertooth-git/host/doc/man/ubertooth-afh.1"
+    "/home/chris/Documents/ubertooth-git/host/doc/man/ubertooth-dfu.1"
+    "/home/chris/Documents/ubertooth-git/host/doc/man/ubertooth-ego.1"
+    "/home/chris/Documents/ubertooth-git/host/doc/man/ubertooth-scan.1"
+    "/home/chris/Documents/ubertooth-git/host/doc/man/ubertooth-util.1"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdocx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man7" TYPE FILE FILES "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/doc/man/ubertooth.7")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man7" TYPE FILE FILES "/home/chris/Documents/ubertooth-git/host/doc/man/ubertooth.7")
 endif()
 

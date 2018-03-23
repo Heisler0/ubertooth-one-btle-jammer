@@ -10,7 +10,7 @@
 stdint.h
 -
 
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/ubertooth-tools/src/ubertooth-follow.c
+/home/chris/Documents/ubertooth-git/host/ubertooth-tools/src/ubertooth-follow.c
 bluetooth/bluetooth.h
 -
 bluetooth/hci.h
@@ -26,9 +26,9 @@ stdlib.h
 err.h
 -
 ubertooth.h
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/ubertooth-tools/src/ubertooth.h
+/home/chris/Documents/ubertooth-git/host/ubertooth-tools/src/ubertooth.h
 ubertooth_callback.h
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/ubertooth-tools/src/ubertooth_callback.h
+/home/chris/Documents/ubertooth-git/host/ubertooth-tools/src/ubertooth_callback.h
 btbb.h
 -
 getopt.h

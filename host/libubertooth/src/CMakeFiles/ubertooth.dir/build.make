@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chris/Documents/ubertooth-git/src/ubertooth-master/host
+CMAKE_SOURCE_DIR = /home/chris/Documents/ubertooth-git/host
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chris/Documents/ubertooth-git/src/ubertooth-master/host
+CMAKE_BINARY_DIR = /home/chris/Documents/ubertooth-git/host
 
 # Include any dependencies generated for this target.
 include libubertooth/src/CMakeFiles/ubertooth.dir/depend.make
@@ -59,16 +59,16 @@ include libubertooth/src/CMakeFiles/ubertooth.dir/flags.make
 
 libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth.c.o: libubertooth/src/CMakeFiles/ubertooth.dir/flags.make
 libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth.c.o: libubertooth/src/ubertooth.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth.c.o"
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ubertooth.dir/ubertooth.c.o   -c /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chris/Documents/ubertooth-git/host/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth.c.o"
+	cd /home/chris/Documents/ubertooth-git/host/libubertooth/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ubertooth.dir/ubertooth.c.o   -c /home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth.c
 
 libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ubertooth.dir/ubertooth.c.i"
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth.c > CMakeFiles/ubertooth.dir/ubertooth.c.i
+	cd /home/chris/Documents/ubertooth-git/host/libubertooth/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth.c > CMakeFiles/ubertooth.dir/ubertooth.c.i
 
 libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ubertooth.dir/ubertooth.c.s"
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth.c -o CMakeFiles/ubertooth.dir/ubertooth.c.s
+	cd /home/chris/Documents/ubertooth-git/host/libubertooth/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth.c -o CMakeFiles/ubertooth.dir/ubertooth.c.s
 
 libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth.c.o.requires:
 
@@ -83,16 +83,16 @@ libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth.c.o.provides.build: libubert
 
 libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_callback.c.o: libubertooth/src/CMakeFiles/ubertooth.dir/flags.make
 libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_callback.c.o: libubertooth/src/ubertooth_callback.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_callback.c.o"
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ubertooth.dir/ubertooth_callback.c.o   -c /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth_callback.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chris/Documents/ubertooth-git/host/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_callback.c.o"
+	cd /home/chris/Documents/ubertooth-git/host/libubertooth/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ubertooth.dir/ubertooth_callback.c.o   -c /home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth_callback.c
 
 libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_callback.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ubertooth.dir/ubertooth_callback.c.i"
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth_callback.c > CMakeFiles/ubertooth.dir/ubertooth_callback.c.i
+	cd /home/chris/Documents/ubertooth-git/host/libubertooth/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth_callback.c > CMakeFiles/ubertooth.dir/ubertooth_callback.c.i
 
 libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_callback.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ubertooth.dir/ubertooth_callback.c.s"
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth_callback.c -o CMakeFiles/ubertooth.dir/ubertooth_callback.c.s
+	cd /home/chris/Documents/ubertooth-git/host/libubertooth/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth_callback.c -o CMakeFiles/ubertooth.dir/ubertooth_callback.c.s
 
 libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_callback.c.o.requires:
 
@@ -107,16 +107,16 @@ libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_callback.c.o.provides.build:
 
 libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_control.c.o: libubertooth/src/CMakeFiles/ubertooth.dir/flags.make
 libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_control.c.o: libubertooth/src/ubertooth_control.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_control.c.o"
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ubertooth.dir/ubertooth_control.c.o   -c /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth_control.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chris/Documents/ubertooth-git/host/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_control.c.o"
+	cd /home/chris/Documents/ubertooth-git/host/libubertooth/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ubertooth.dir/ubertooth_control.c.o   -c /home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth_control.c
 
 libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_control.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ubertooth.dir/ubertooth_control.c.i"
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth_control.c > CMakeFiles/ubertooth.dir/ubertooth_control.c.i
+	cd /home/chris/Documents/ubertooth-git/host/libubertooth/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth_control.c > CMakeFiles/ubertooth.dir/ubertooth_control.c.i
 
 libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_control.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ubertooth.dir/ubertooth_control.c.s"
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth_control.c -o CMakeFiles/ubertooth.dir/ubertooth_control.c.s
+	cd /home/chris/Documents/ubertooth-git/host/libubertooth/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth_control.c -o CMakeFiles/ubertooth.dir/ubertooth_control.c.s
 
 libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_control.c.o.requires:
 
@@ -131,16 +131,16 @@ libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_control.c.o.provides.build: 
 
 libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_fifo.c.o: libubertooth/src/CMakeFiles/ubertooth.dir/flags.make
 libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_fifo.c.o: libubertooth/src/ubertooth_fifo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_fifo.c.o"
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ubertooth.dir/ubertooth_fifo.c.o   -c /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth_fifo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chris/Documents/ubertooth-git/host/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_fifo.c.o"
+	cd /home/chris/Documents/ubertooth-git/host/libubertooth/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ubertooth.dir/ubertooth_fifo.c.o   -c /home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth_fifo.c
 
 libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_fifo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ubertooth.dir/ubertooth_fifo.c.i"
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth_fifo.c > CMakeFiles/ubertooth.dir/ubertooth_fifo.c.i
+	cd /home/chris/Documents/ubertooth-git/host/libubertooth/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth_fifo.c > CMakeFiles/ubertooth.dir/ubertooth_fifo.c.i
 
 libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_fifo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ubertooth.dir/ubertooth_fifo.c.s"
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth_fifo.c -o CMakeFiles/ubertooth.dir/ubertooth_fifo.c.s
+	cd /home/chris/Documents/ubertooth-git/host/libubertooth/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth_fifo.c -o CMakeFiles/ubertooth.dir/ubertooth_fifo.c.s
 
 libubertooth/src/CMakeFiles/ubertooth.dir/ubertooth_fifo.c.o.requires:
 
@@ -171,9 +171,9 @@ libubertooth/src/libubertooth.so.1.0: libubertooth/src/CMakeFiles/ubertooth.dir/
 libubertooth/src/libubertooth.so.1.0: /usr/lib/libusb-1.0.so
 libubertooth/src/libubertooth.so.1.0: /lib/libbtbb.so
 libubertooth/src/libubertooth.so.1.0: libubertooth/src/CMakeFiles/ubertooth.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libubertooth.so"
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ubertooth.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src && $(CMAKE_COMMAND) -E cmake_symlink_library libubertooth.so.1.0 libubertooth.so.1 libubertooth.so
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chris/Documents/ubertooth-git/host/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libubertooth.so"
+	cd /home/chris/Documents/ubertooth-git/host/libubertooth/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ubertooth.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/chris/Documents/ubertooth-git/host/libubertooth/src && $(CMAKE_COMMAND) -E cmake_symlink_library libubertooth.so.1.0 libubertooth.so.1 libubertooth.so
 
 libubertooth/src/libubertooth.so.1: libubertooth/src/libubertooth.so.1.0
 	@$(CMAKE_COMMAND) -E touch_nocreate libubertooth/src/libubertooth.so.1
@@ -194,10 +194,10 @@ libubertooth/src/CMakeFiles/ubertooth.dir/requires: libubertooth/src/CMakeFiles/
 .PHONY : libubertooth/src/CMakeFiles/ubertooth.dir/requires
 
 libubertooth/src/CMakeFiles/ubertooth.dir/clean:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src && $(CMAKE_COMMAND) -P CMakeFiles/ubertooth.dir/cmake_clean.cmake
+	cd /home/chris/Documents/ubertooth-git/host/libubertooth/src && $(CMAKE_COMMAND) -P CMakeFiles/ubertooth.dir/cmake_clean.cmake
 .PHONY : libubertooth/src/CMakeFiles/ubertooth.dir/clean
 
 libubertooth/src/CMakeFiles/ubertooth.dir/depend:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/Documents/ubertooth-git/src/ubertooth-master/host /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src /home/chris/Documents/ubertooth-git/src/ubertooth-master/host /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/CMakeFiles/ubertooth.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chris/Documents/ubertooth-git/host && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/Documents/ubertooth-git/host /home/chris/Documents/ubertooth-git/host/libubertooth/src /home/chris/Documents/ubertooth-git/host /home/chris/Documents/ubertooth-git/host/libubertooth/src /home/chris/Documents/ubertooth-git/host/libubertooth/src/CMakeFiles/ubertooth.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libubertooth/src/CMakeFiles/ubertooth.dir/depend
 

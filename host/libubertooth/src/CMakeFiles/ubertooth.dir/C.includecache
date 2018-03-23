@@ -10,7 +10,7 @@
 stdint.h
 -
 
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth.c
+/home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth.c
 pthread.h
 -
 signal.h
@@ -26,23 +26,23 @@ time.h
 unistd.h
 -
 ubertooth.h
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth.h
+/home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth.h
 ubertooth_callback.h
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth_callback.h
+/home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth_callback.h
 ubertooth_control.h
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth_control.h
+/home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth_control.h
 ubertooth_interface.h
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth_interface.h
+/home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth_interface.h
 
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth.h
+/home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth.h
 ubertooth_control.h
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth_control.h
+/home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth_control.h
 ubertooth_fifo.h
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth_fifo.h
+/home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth_fifo.h
 btbb.h
 -
 
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth_callback.c
+/home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth_callback.c
 stdio.h
 -
 stdlib.h
@@ -54,23 +54,23 @@ time.h
 unistd.h
 -
 ubertooth_callback.h
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth_callback.h
+/home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth_callback.h
 
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth_callback.h
+/home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth_callback.h
 ubertooth_control.h
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth_control.h
+/home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth_control.h
 ubertooth.h
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth.h
+/home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth.h
 
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth_control.c
+/home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth_control.c
 string.h
 -
 btbb.h
 -
 ubertooth_control.h
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth_control.h
+/home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth_control.h
 
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth_control.h
+/home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth_control.h
 libusb.h
 -
 CoreServices/CoreServices.h
@@ -84,11 +84,11 @@ endian.h
 stdio.h
 -
 ubertooth_interface.h
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth_interface.h
+/home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth_interface.h
 
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth_fifo.c
+/home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth_fifo.c
 ubertooth_fifo.h
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth_fifo.h
+/home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth_fifo.h
 string.h
 -
 stdlib.h
@@ -96,11 +96,11 @@ stdlib.h
 stdio.h
 -
 
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth_fifo.h
+/home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth_fifo.h
 ubertooth_control.h
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth_control.h
+/home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth_control.h
 
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/ubertooth_interface.h
+/home/chris/Documents/ubertooth-git/host/libubertooth/src/ubertooth_interface.h
 stdint.h
 -
 

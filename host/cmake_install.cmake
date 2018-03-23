@@ -1,4 +1,4 @@
-# Install script for directory: /home/chris/Documents/ubertooth-git/src/ubertooth-master/host
+# Install script for directory: /home/chris/Documents/ubertooth-git/host
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/cmake_install.cmake")
-  include("/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/ubertooth-tools/cmake_install.cmake")
-  include("/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/doc/cmake_install.cmake")
-  include("/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/misc/cmake_install.cmake")
-  include("/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/python/cmake_install.cmake")
+  include("/home/chris/Documents/ubertooth-git/host/libubertooth/cmake_install.cmake")
+  include("/home/chris/Documents/ubertooth-git/host/ubertooth-tools/cmake_install.cmake")
+  include("/home/chris/Documents/ubertooth-git/host/doc/cmake_install.cmake")
+  include("/home/chris/Documents/ubertooth-git/host/misc/cmake_install.cmake")
+  include("/home/chris/Documents/ubertooth-git/host/python/cmake_install.cmake")
 
 endif()
 
@@ -55,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/chris/Documents/ubertooth-git/host/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

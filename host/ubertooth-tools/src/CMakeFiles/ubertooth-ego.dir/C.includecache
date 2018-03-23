@@ -10,11 +10,11 @@
 stdint.h
 -
 
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/ubertooth-tools/src/ubertooth-ego.c
+/home/chris/Documents/ubertooth-git/host/ubertooth-tools/src/ubertooth-ego.c
 ubertooth.h
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/ubertooth-tools/src/ubertooth.h
+/home/chris/Documents/ubertooth-git/host/ubertooth-tools/src/ubertooth.h
 ubertooth_callback.h
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/ubertooth-tools/src/ubertooth_callback.h
+/home/chris/Documents/ubertooth-git/host/ubertooth-tools/src/ubertooth_callback.h
 ctype.h
 -
 err.h

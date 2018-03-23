@@ -1,4 +1,4 @@
-# Install script for directory: /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/ubertooth-tools/src
+# Install script for directory: /home/chris/Documents/ubertooth-git/host/ubertooth-tools/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,12 +44,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-rx"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/ubertooth-tools/src/ubertooth-rx")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/chris/Documents/ubertooth-git/host/ubertooth-tools/src/ubertooth-rx")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-rx" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-rx")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-rx"
-         OLD_RPATH "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src:"
+         OLD_RPATH "/home/chris/Documents/ubertooth-git/host/libubertooth/src:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-rx")
@@ -64,12 +64,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-tx"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/ubertooth-tools/src/ubertooth-tx")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/chris/Documents/ubertooth-git/host/ubertooth-tools/src/ubertooth-tx")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-tx" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-tx")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-tx"
-         OLD_RPATH "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src:"
+         OLD_RPATH "/home/chris/Documents/ubertooth-git/host/libubertooth/src:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-tx")
@@ -84,12 +84,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-dump"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/ubertooth-tools/src/ubertooth-dump")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/chris/Documents/ubertooth-git/host/ubertooth-tools/src/ubertooth-dump")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-dump" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-dump")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-dump"
-         OLD_RPATH "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src:"
+         OLD_RPATH "/home/chris/Documents/ubertooth-git/host/libubertooth/src:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-dump")
@@ -104,12 +104,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-util"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/ubertooth-tools/src/ubertooth-util")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/chris/Documents/ubertooth-git/host/ubertooth-tools/src/ubertooth-util")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-util" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-util")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-util"
-         OLD_RPATH "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src:"
+         OLD_RPATH "/home/chris/Documents/ubertooth-git/host/libubertooth/src:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-util")
@@ -124,12 +124,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-btle"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/ubertooth-tools/src/ubertooth-btle")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/chris/Documents/ubertooth-git/host/ubertooth-tools/src/ubertooth-btle")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-btle" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-btle")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-btle"
-         OLD_RPATH "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src:"
+         OLD_RPATH "/home/chris/Documents/ubertooth-git/host/libubertooth/src:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-btle")
@@ -144,12 +144,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-dfu"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/ubertooth-tools/src/ubertooth-dfu")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/chris/Documents/ubertooth-git/host/ubertooth-tools/src/ubertooth-dfu")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-dfu" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-dfu")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-dfu"
-         OLD_RPATH "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src:"
+         OLD_RPATH "/home/chris/Documents/ubertooth-git/host/libubertooth/src:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-dfu")
@@ -164,12 +164,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-specan"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/ubertooth-tools/src/ubertooth-specan")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/chris/Documents/ubertooth-git/host/ubertooth-tools/src/ubertooth-specan")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-specan" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-specan")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-specan"
-         OLD_RPATH "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src:"
+         OLD_RPATH "/home/chris/Documents/ubertooth-git/host/libubertooth/src:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-specan")
@@ -184,12 +184,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-ego"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/ubertooth-tools/src/ubertooth-ego")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/chris/Documents/ubertooth-git/host/ubertooth-tools/src/ubertooth-ego")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-ego" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-ego")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-ego"
-         OLD_RPATH "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src:"
+         OLD_RPATH "/home/chris/Documents/ubertooth-git/host/libubertooth/src:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-ego")
@@ -204,12 +204,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-afh"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/ubertooth-tools/src/ubertooth-afh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/chris/Documents/ubertooth-git/host/ubertooth-tools/src/ubertooth-afh")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-afh" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-afh")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-afh"
-         OLD_RPATH "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src:"
+         OLD_RPATH "/home/chris/Documents/ubertooth-git/host/libubertooth/src:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-afh")
@@ -224,12 +224,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-follow"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/ubertooth-tools/src/ubertooth-follow")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/chris/Documents/ubertooth-git/host/ubertooth-tools/src/ubertooth-follow")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-follow" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-follow")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-follow"
-         OLD_RPATH "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src:"
+         OLD_RPATH "/home/chris/Documents/ubertooth-git/host/libubertooth/src:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-follow")
@@ -244,12 +244,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-scan"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/ubertooth-tools/src/ubertooth-scan")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/chris/Documents/ubertooth-git/host/ubertooth-tools/src/ubertooth-scan")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-scan" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-scan")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-scan"
-         OLD_RPATH "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src:"
+         OLD_RPATH "/home/chris/Documents/ubertooth-git/host/libubertooth/src:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-scan")
@@ -264,12 +264,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-debug"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/ubertooth-tools/src/ubertooth-debug")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/chris/Documents/ubertooth-git/host/ubertooth-tools/src/ubertooth-debug")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-debug" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-debug")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-debug"
-         OLD_RPATH "/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src:"
+         OLD_RPATH "/home/chris/Documents/ubertooth-git/host/libubertooth/src:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ubertooth-debug")

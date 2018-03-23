@@ -1,4 +1,4 @@
-# Install script for directory: /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth
+# Install script for directory: /home/chris/Documents/ubertooth-git/host/libubertooth
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/libubertooth/src/cmake_install.cmake")
+  include("/home/chris/Documents/ubertooth-git/host/libubertooth/src/cmake_install.cmake")
 
 endif()
 

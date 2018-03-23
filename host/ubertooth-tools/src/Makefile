@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chris/Documents/ubertooth-git/src/ubertooth-master/host
+CMAKE_SOURCE_DIR = /home/chris/Documents/ubertooth-git/host
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chris/Documents/ubertooth-git/src/ubertooth-master/host
+CMAKE_BINARY_DIR = /home/chris/Documents/ubertooth-git/host
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(CMAKE_COMMAND) -E cmake_progress_start /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/CMakeFiles /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/ubertooth-tools/src/CMakeFiles/progress.marks
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f CMakeFiles/Makefile2 ubertooth-tools/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/CMakeFiles 0
+	cd /home/chris/Documents/ubertooth-git/host && $(CMAKE_COMMAND) -E cmake_progress_start /home/chris/Documents/ubertooth-git/host/CMakeFiles /home/chris/Documents/ubertooth-git/host/ubertooth-tools/src/CMakeFiles/progress.marks
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f CMakeFiles/Makefile2 ubertooth-tools/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/Documents/ubertooth-git/host/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f CMakeFiles/Makefile2 ubertooth-tools/src/clean
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f CMakeFiles/Makefile2 ubertooth-tools/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f CMakeFiles/Makefile2 ubertooth-tools/src/preinstall
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f CMakeFiles/Makefile2 ubertooth-tools/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f CMakeFiles/Makefile2 ubertooth-tools/src/preinstall
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f CMakeFiles/Makefile2 ubertooth-tools/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/chris/Documents/ubertooth-git/host && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ubertooth-tools/src/CMakeFiles/ubertooth-specan.dir/rule:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f CMakeFiles/Makefile2 ubertooth-tools/src/CMakeFiles/ubertooth-specan.dir/rule
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f CMakeFiles/Makefile2 ubertooth-tools/src/CMakeFiles/ubertooth-specan.dir/rule
 .PHONY : ubertooth-tools/src/CMakeFiles/ubertooth-specan.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ ubertooth-specan: ubertooth-tools/src/CMakeFiles/ubertooth-specan.dir/rule
 
 # fast build rule for target.
 ubertooth-specan/fast:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-specan.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-specan.dir/build
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-specan.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-specan.dir/build
 .PHONY : ubertooth-specan/fast
 
 # Convenience name for target.
 ubertooth-tools/src/CMakeFiles/ubertooth-util.dir/rule:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f CMakeFiles/Makefile2 ubertooth-tools/src/CMakeFiles/ubertooth-util.dir/rule
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f CMakeFiles/Makefile2 ubertooth-tools/src/CMakeFiles/ubertooth-util.dir/rule
 .PHONY : ubertooth-tools/src/CMakeFiles/ubertooth-util.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ ubertooth-util: ubertooth-tools/src/CMakeFiles/ubertooth-util.dir/rule
 
 # fast build rule for target.
 ubertooth-util/fast:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-util.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-util.dir/build
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-util.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-util.dir/build
 .PHONY : ubertooth-util/fast
 
 # Convenience name for target.
 ubertooth-tools/src/CMakeFiles/ubertooth-dump.dir/rule:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f CMakeFiles/Makefile2 ubertooth-tools/src/CMakeFiles/ubertooth-dump.dir/rule
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f CMakeFiles/Makefile2 ubertooth-tools/src/CMakeFiles/ubertooth-dump.dir/rule
 .PHONY : ubertooth-tools/src/CMakeFiles/ubertooth-dump.dir/rule
 
 # Convenience name for target.
@@ -198,12 +198,12 @@ ubertooth-dump: ubertooth-tools/src/CMakeFiles/ubertooth-dump.dir/rule
 
 # fast build rule for target.
 ubertooth-dump/fast:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-dump.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-dump.dir/build
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-dump.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-dump.dir/build
 .PHONY : ubertooth-dump/fast
 
 # Convenience name for target.
 ubertooth-tools/src/CMakeFiles/ubertooth-dfu.dir/rule:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f CMakeFiles/Makefile2 ubertooth-tools/src/CMakeFiles/ubertooth-dfu.dir/rule
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f CMakeFiles/Makefile2 ubertooth-tools/src/CMakeFiles/ubertooth-dfu.dir/rule
 .PHONY : ubertooth-tools/src/CMakeFiles/ubertooth-dfu.dir/rule
 
 # Convenience name for target.
@@ -213,12 +213,12 @@ ubertooth-dfu: ubertooth-tools/src/CMakeFiles/ubertooth-dfu.dir/rule
 
 # fast build rule for target.
 ubertooth-dfu/fast:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-dfu.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-dfu.dir/build
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-dfu.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-dfu.dir/build
 .PHONY : ubertooth-dfu/fast
 
 # Convenience name for target.
 ubertooth-tools/src/CMakeFiles/ubertooth-rx.dir/rule:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f CMakeFiles/Makefile2 ubertooth-tools/src/CMakeFiles/ubertooth-rx.dir/rule
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f CMakeFiles/Makefile2 ubertooth-tools/src/CMakeFiles/ubertooth-rx.dir/rule
 .PHONY : ubertooth-tools/src/CMakeFiles/ubertooth-rx.dir/rule
 
 # Convenience name for target.
@@ -228,12 +228,12 @@ ubertooth-rx: ubertooth-tools/src/CMakeFiles/ubertooth-rx.dir/rule
 
 # fast build rule for target.
 ubertooth-rx/fast:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-rx.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-rx.dir/build
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-rx.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-rx.dir/build
 .PHONY : ubertooth-rx/fast
 
 # Convenience name for target.
 ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/rule:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f CMakeFiles/Makefile2 ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/rule
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f CMakeFiles/Makefile2 ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/rule
 .PHONY : ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/rule
 
 # Convenience name for target.
@@ -243,12 +243,12 @@ ubertooth-debug: ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/rule
 
 # fast build rule for target.
 ubertooth-debug/fast:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/build
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/build
 .PHONY : ubertooth-debug/fast
 
 # Convenience name for target.
 ubertooth-tools/src/CMakeFiles/ubertooth-afh.dir/rule:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f CMakeFiles/Makefile2 ubertooth-tools/src/CMakeFiles/ubertooth-afh.dir/rule
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f CMakeFiles/Makefile2 ubertooth-tools/src/CMakeFiles/ubertooth-afh.dir/rule
 .PHONY : ubertooth-tools/src/CMakeFiles/ubertooth-afh.dir/rule
 
 # Convenience name for target.
@@ -258,12 +258,12 @@ ubertooth-afh: ubertooth-tools/src/CMakeFiles/ubertooth-afh.dir/rule
 
 # fast build rule for target.
 ubertooth-afh/fast:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-afh.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-afh.dir/build
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-afh.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-afh.dir/build
 .PHONY : ubertooth-afh/fast
 
 # Convenience name for target.
 ubertooth-tools/src/CMakeFiles/ubertooth-follow.dir/rule:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f CMakeFiles/Makefile2 ubertooth-tools/src/CMakeFiles/ubertooth-follow.dir/rule
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f CMakeFiles/Makefile2 ubertooth-tools/src/CMakeFiles/ubertooth-follow.dir/rule
 .PHONY : ubertooth-tools/src/CMakeFiles/ubertooth-follow.dir/rule
 
 # Convenience name for target.
@@ -273,12 +273,12 @@ ubertooth-follow: ubertooth-tools/src/CMakeFiles/ubertooth-follow.dir/rule
 
 # fast build rule for target.
 ubertooth-follow/fast:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-follow.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-follow.dir/build
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-follow.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-follow.dir/build
 .PHONY : ubertooth-follow/fast
 
 # Convenience name for target.
 ubertooth-tools/src/CMakeFiles/ubertooth-btle.dir/rule:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f CMakeFiles/Makefile2 ubertooth-tools/src/CMakeFiles/ubertooth-btle.dir/rule
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f CMakeFiles/Makefile2 ubertooth-tools/src/CMakeFiles/ubertooth-btle.dir/rule
 .PHONY : ubertooth-tools/src/CMakeFiles/ubertooth-btle.dir/rule
 
 # Convenience name for target.
@@ -288,12 +288,12 @@ ubertooth-btle: ubertooth-tools/src/CMakeFiles/ubertooth-btle.dir/rule
 
 # fast build rule for target.
 ubertooth-btle/fast:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-btle.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-btle.dir/build
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-btle.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-btle.dir/build
 .PHONY : ubertooth-btle/fast
 
 # Convenience name for target.
 ubertooth-tools/src/CMakeFiles/ubertooth-tx.dir/rule:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f CMakeFiles/Makefile2 ubertooth-tools/src/CMakeFiles/ubertooth-tx.dir/rule
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f CMakeFiles/Makefile2 ubertooth-tools/src/CMakeFiles/ubertooth-tx.dir/rule
 .PHONY : ubertooth-tools/src/CMakeFiles/ubertooth-tx.dir/rule
 
 # Convenience name for target.
@@ -303,12 +303,12 @@ ubertooth-tx: ubertooth-tools/src/CMakeFiles/ubertooth-tx.dir/rule
 
 # fast build rule for target.
 ubertooth-tx/fast:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-tx.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-tx.dir/build
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-tx.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-tx.dir/build
 .PHONY : ubertooth-tx/fast
 
 # Convenience name for target.
 ubertooth-tools/src/CMakeFiles/ubertooth-ego.dir/rule:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f CMakeFiles/Makefile2 ubertooth-tools/src/CMakeFiles/ubertooth-ego.dir/rule
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f CMakeFiles/Makefile2 ubertooth-tools/src/CMakeFiles/ubertooth-ego.dir/rule
 .PHONY : ubertooth-tools/src/CMakeFiles/ubertooth-ego.dir/rule
 
 # Convenience name for target.
@@ -318,12 +318,12 @@ ubertooth-ego: ubertooth-tools/src/CMakeFiles/ubertooth-ego.dir/rule
 
 # fast build rule for target.
 ubertooth-ego/fast:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-ego.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-ego.dir/build
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-ego.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-ego.dir/build
 .PHONY : ubertooth-ego/fast
 
 # Convenience name for target.
 ubertooth-tools/src/CMakeFiles/ubertooth-scan.dir/rule:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f CMakeFiles/Makefile2 ubertooth-tools/src/CMakeFiles/ubertooth-scan.dir/rule
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f CMakeFiles/Makefile2 ubertooth-tools/src/CMakeFiles/ubertooth-scan.dir/rule
 .PHONY : ubertooth-tools/src/CMakeFiles/ubertooth-scan.dir/rule
 
 # Convenience name for target.
@@ -333,7 +333,7 @@ ubertooth-scan: ubertooth-tools/src/CMakeFiles/ubertooth-scan.dir/rule
 
 # fast build rule for target.
 ubertooth-scan/fast:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-scan.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-scan.dir/build
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-scan.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-scan.dir/build
 .PHONY : ubertooth-scan/fast
 
 arglist.o: arglist.c.o
@@ -342,7 +342,7 @@ arglist.o: arglist.c.o
 
 # target to build an object file
 arglist.c.o:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/arglist.c.o
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/arglist.c.o
 .PHONY : arglist.c.o
 
 arglist.i: arglist.c.i
@@ -351,7 +351,7 @@ arglist.i: arglist.c.i
 
 # target to preprocess a source file
 arglist.c.i:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/arglist.c.i
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/arglist.c.i
 .PHONY : arglist.c.i
 
 arglist.s: arglist.c.s
@@ -360,7 +360,7 @@ arglist.s: arglist.c.s
 
 # target to generate assembly for a file
 arglist.c.s:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/arglist.c.s
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/arglist.c.s
 .PHONY : arglist.c.s
 
 cc2400.o: cc2400.c.o
@@ -369,7 +369,7 @@ cc2400.o: cc2400.c.o
 
 # target to build an object file
 cc2400.c.o:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/cc2400.c.o
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/cc2400.c.o
 .PHONY : cc2400.c.o
 
 cc2400.i: cc2400.c.i
@@ -378,7 +378,7 @@ cc2400.i: cc2400.c.i
 
 # target to preprocess a source file
 cc2400.c.i:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/cc2400.c.i
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/cc2400.c.i
 .PHONY : cc2400.c.i
 
 cc2400.s: cc2400.c.s
@@ -387,7 +387,7 @@ cc2400.s: cc2400.c.s
 
 # target to generate assembly for a file
 cc2400.c.s:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/cc2400.c.s
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/cc2400.c.s
 .PHONY : cc2400.c.s
 
 ubertooth-afh.o: ubertooth-afh.c.o
@@ -396,7 +396,7 @@ ubertooth-afh.o: ubertooth-afh.c.o
 
 # target to build an object file
 ubertooth-afh.c.o:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-afh.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-afh.dir/ubertooth-afh.c.o
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-afh.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-afh.dir/ubertooth-afh.c.o
 .PHONY : ubertooth-afh.c.o
 
 ubertooth-afh.i: ubertooth-afh.c.i
@@ -405,7 +405,7 @@ ubertooth-afh.i: ubertooth-afh.c.i
 
 # target to preprocess a source file
 ubertooth-afh.c.i:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-afh.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-afh.dir/ubertooth-afh.c.i
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-afh.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-afh.dir/ubertooth-afh.c.i
 .PHONY : ubertooth-afh.c.i
 
 ubertooth-afh.s: ubertooth-afh.c.s
@@ -414,7 +414,7 @@ ubertooth-afh.s: ubertooth-afh.c.s
 
 # target to generate assembly for a file
 ubertooth-afh.c.s:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-afh.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-afh.dir/ubertooth-afh.c.s
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-afh.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-afh.dir/ubertooth-afh.c.s
 .PHONY : ubertooth-afh.c.s
 
 ubertooth-btle.o: ubertooth-btle.c.o
@@ -423,7 +423,7 @@ ubertooth-btle.o: ubertooth-btle.c.o
 
 # target to build an object file
 ubertooth-btle.c.o:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-btle.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-btle.dir/ubertooth-btle.c.o
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-btle.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-btle.dir/ubertooth-btle.c.o
 .PHONY : ubertooth-btle.c.o
 
 ubertooth-btle.i: ubertooth-btle.c.i
@@ -432,7 +432,7 @@ ubertooth-btle.i: ubertooth-btle.c.i
 
 # target to preprocess a source file
 ubertooth-btle.c.i:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-btle.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-btle.dir/ubertooth-btle.c.i
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-btle.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-btle.dir/ubertooth-btle.c.i
 .PHONY : ubertooth-btle.c.i
 
 ubertooth-btle.s: ubertooth-btle.c.s
@@ -441,7 +441,7 @@ ubertooth-btle.s: ubertooth-btle.c.s
 
 # target to generate assembly for a file
 ubertooth-btle.c.s:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-btle.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-btle.dir/ubertooth-btle.c.s
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-btle.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-btle.dir/ubertooth-btle.c.s
 .PHONY : ubertooth-btle.c.s
 
 ubertooth-debug.o: ubertooth-debug.c.o
@@ -450,7 +450,7 @@ ubertooth-debug.o: ubertooth-debug.c.o
 
 # target to build an object file
 ubertooth-debug.c.o:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/ubertooth-debug.c.o
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/ubertooth-debug.c.o
 .PHONY : ubertooth-debug.c.o
 
 ubertooth-debug.i: ubertooth-debug.c.i
@@ -459,7 +459,7 @@ ubertooth-debug.i: ubertooth-debug.c.i
 
 # target to preprocess a source file
 ubertooth-debug.c.i:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/ubertooth-debug.c.i
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/ubertooth-debug.c.i
 .PHONY : ubertooth-debug.c.i
 
 ubertooth-debug.s: ubertooth-debug.c.s
@@ -468,7 +468,7 @@ ubertooth-debug.s: ubertooth-debug.c.s
 
 # target to generate assembly for a file
 ubertooth-debug.c.s:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/ubertooth-debug.c.s
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-debug.dir/ubertooth-debug.c.s
 .PHONY : ubertooth-debug.c.s
 
 ubertooth-dfu.o: ubertooth-dfu.c.o
@@ -477,7 +477,7 @@ ubertooth-dfu.o: ubertooth-dfu.c.o
 
 # target to build an object file
 ubertooth-dfu.c.o:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-dfu.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-dfu.dir/ubertooth-dfu.c.o
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-dfu.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-dfu.dir/ubertooth-dfu.c.o
 .PHONY : ubertooth-dfu.c.o
 
 ubertooth-dfu.i: ubertooth-dfu.c.i
@@ -486,7 +486,7 @@ ubertooth-dfu.i: ubertooth-dfu.c.i
 
 # target to preprocess a source file
 ubertooth-dfu.c.i:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-dfu.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-dfu.dir/ubertooth-dfu.c.i
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-dfu.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-dfu.dir/ubertooth-dfu.c.i
 .PHONY : ubertooth-dfu.c.i
 
 ubertooth-dfu.s: ubertooth-dfu.c.s
@@ -495,7 +495,7 @@ ubertooth-dfu.s: ubertooth-dfu.c.s
 
 # target to generate assembly for a file
 ubertooth-dfu.c.s:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-dfu.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-dfu.dir/ubertooth-dfu.c.s
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-dfu.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-dfu.dir/ubertooth-dfu.c.s
 .PHONY : ubertooth-dfu.c.s
 
 ubertooth-dump.o: ubertooth-dump.c.o
@@ -504,7 +504,7 @@ ubertooth-dump.o: ubertooth-dump.c.o
 
 # target to build an object file
 ubertooth-dump.c.o:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-dump.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-dump.dir/ubertooth-dump.c.o
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-dump.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-dump.dir/ubertooth-dump.c.o
 .PHONY : ubertooth-dump.c.o
 
 ubertooth-dump.i: ubertooth-dump.c.i
@@ -513,7 +513,7 @@ ubertooth-dump.i: ubertooth-dump.c.i
 
 # target to preprocess a source file
 ubertooth-dump.c.i:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-dump.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-dump.dir/ubertooth-dump.c.i
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-dump.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-dump.dir/ubertooth-dump.c.i
 .PHONY : ubertooth-dump.c.i
 
 ubertooth-dump.s: ubertooth-dump.c.s
@@ -522,7 +522,7 @@ ubertooth-dump.s: ubertooth-dump.c.s
 
 # target to generate assembly for a file
 ubertooth-dump.c.s:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-dump.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-dump.dir/ubertooth-dump.c.s
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-dump.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-dump.dir/ubertooth-dump.c.s
 .PHONY : ubertooth-dump.c.s
 
 ubertooth-ego.o: ubertooth-ego.c.o
@@ -531,7 +531,7 @@ ubertooth-ego.o: ubertooth-ego.c.o
 
 # target to build an object file
 ubertooth-ego.c.o:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-ego.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-ego.dir/ubertooth-ego.c.o
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-ego.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-ego.dir/ubertooth-ego.c.o
 .PHONY : ubertooth-ego.c.o
 
 ubertooth-ego.i: ubertooth-ego.c.i
@@ -540,7 +540,7 @@ ubertooth-ego.i: ubertooth-ego.c.i
 
 # target to preprocess a source file
 ubertooth-ego.c.i:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-ego.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-ego.dir/ubertooth-ego.c.i
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-ego.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-ego.dir/ubertooth-ego.c.i
 .PHONY : ubertooth-ego.c.i
 
 ubertooth-ego.s: ubertooth-ego.c.s
@@ -549,7 +549,7 @@ ubertooth-ego.s: ubertooth-ego.c.s
 
 # target to generate assembly for a file
 ubertooth-ego.c.s:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-ego.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-ego.dir/ubertooth-ego.c.s
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-ego.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-ego.dir/ubertooth-ego.c.s
 .PHONY : ubertooth-ego.c.s
 
 ubertooth-follow.o: ubertooth-follow.c.o
@@ -558,7 +558,7 @@ ubertooth-follow.o: ubertooth-follow.c.o
 
 # target to build an object file
 ubertooth-follow.c.o:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-follow.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-follow.dir/ubertooth-follow.c.o
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-follow.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-follow.dir/ubertooth-follow.c.o
 .PHONY : ubertooth-follow.c.o
 
 ubertooth-follow.i: ubertooth-follow.c.i
@@ -567,7 +567,7 @@ ubertooth-follow.i: ubertooth-follow.c.i
 
 # target to preprocess a source file
 ubertooth-follow.c.i:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-follow.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-follow.dir/ubertooth-follow.c.i
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-follow.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-follow.dir/ubertooth-follow.c.i
 .PHONY : ubertooth-follow.c.i
 
 ubertooth-follow.s: ubertooth-follow.c.s
@@ -576,7 +576,7 @@ ubertooth-follow.s: ubertooth-follow.c.s
 
 # target to generate assembly for a file
 ubertooth-follow.c.s:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-follow.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-follow.dir/ubertooth-follow.c.s
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-follow.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-follow.dir/ubertooth-follow.c.s
 .PHONY : ubertooth-follow.c.s
 
 ubertooth-rx.o: ubertooth-rx.c.o
@@ -585,7 +585,7 @@ ubertooth-rx.o: ubertooth-rx.c.o
 
 # target to build an object file
 ubertooth-rx.c.o:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-rx.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-rx.dir/ubertooth-rx.c.o
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-rx.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-rx.dir/ubertooth-rx.c.o
 .PHONY : ubertooth-rx.c.o
 
 ubertooth-rx.i: ubertooth-rx.c.i
@@ -594,7 +594,7 @@ ubertooth-rx.i: ubertooth-rx.c.i
 
 # target to preprocess a source file
 ubertooth-rx.c.i:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-rx.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-rx.dir/ubertooth-rx.c.i
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-rx.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-rx.dir/ubertooth-rx.c.i
 .PHONY : ubertooth-rx.c.i
 
 ubertooth-rx.s: ubertooth-rx.c.s
@@ -603,7 +603,7 @@ ubertooth-rx.s: ubertooth-rx.c.s
 
 # target to generate assembly for a file
 ubertooth-rx.c.s:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-rx.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-rx.dir/ubertooth-rx.c.s
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-rx.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-rx.dir/ubertooth-rx.c.s
 .PHONY : ubertooth-rx.c.s
 
 ubertooth-scan.o: ubertooth-scan.c.o
@@ -612,7 +612,7 @@ ubertooth-scan.o: ubertooth-scan.c.o
 
 # target to build an object file
 ubertooth-scan.c.o:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-scan.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-scan.dir/ubertooth-scan.c.o
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-scan.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-scan.dir/ubertooth-scan.c.o
 .PHONY : ubertooth-scan.c.o
 
 ubertooth-scan.i: ubertooth-scan.c.i
@@ -621,7 +621,7 @@ ubertooth-scan.i: ubertooth-scan.c.i
 
 # target to preprocess a source file
 ubertooth-scan.c.i:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-scan.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-scan.dir/ubertooth-scan.c.i
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-scan.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-scan.dir/ubertooth-scan.c.i
 .PHONY : ubertooth-scan.c.i
 
 ubertooth-scan.s: ubertooth-scan.c.s
@@ -630,7 +630,7 @@ ubertooth-scan.s: ubertooth-scan.c.s
 
 # target to generate assembly for a file
 ubertooth-scan.c.s:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-scan.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-scan.dir/ubertooth-scan.c.s
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-scan.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-scan.dir/ubertooth-scan.c.s
 .PHONY : ubertooth-scan.c.s
 
 ubertooth-specan.o: ubertooth-specan.c.o
@@ -639,7 +639,7 @@ ubertooth-specan.o: ubertooth-specan.c.o
 
 # target to build an object file
 ubertooth-specan.c.o:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-specan.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-specan.dir/ubertooth-specan.c.o
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-specan.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-specan.dir/ubertooth-specan.c.o
 .PHONY : ubertooth-specan.c.o
 
 ubertooth-specan.i: ubertooth-specan.c.i
@@ -648,7 +648,7 @@ ubertooth-specan.i: ubertooth-specan.c.i
 
 # target to preprocess a source file
 ubertooth-specan.c.i:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-specan.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-specan.dir/ubertooth-specan.c.i
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-specan.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-specan.dir/ubertooth-specan.c.i
 .PHONY : ubertooth-specan.c.i
 
 ubertooth-specan.s: ubertooth-specan.c.s
@@ -657,7 +657,7 @@ ubertooth-specan.s: ubertooth-specan.c.s
 
 # target to generate assembly for a file
 ubertooth-specan.c.s:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-specan.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-specan.dir/ubertooth-specan.c.s
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-specan.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-specan.dir/ubertooth-specan.c.s
 .PHONY : ubertooth-specan.c.s
 
 ubertooth-tx.o: ubertooth-tx.c.o
@@ -666,7 +666,7 @@ ubertooth-tx.o: ubertooth-tx.c.o
 
 # target to build an object file
 ubertooth-tx.c.o:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-tx.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-tx.dir/ubertooth-tx.c.o
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-tx.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-tx.dir/ubertooth-tx.c.o
 .PHONY : ubertooth-tx.c.o
 
 ubertooth-tx.i: ubertooth-tx.c.i
@@ -675,7 +675,7 @@ ubertooth-tx.i: ubertooth-tx.c.i
 
 # target to preprocess a source file
 ubertooth-tx.c.i:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-tx.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-tx.dir/ubertooth-tx.c.i
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-tx.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-tx.dir/ubertooth-tx.c.i
 .PHONY : ubertooth-tx.c.i
 
 ubertooth-tx.s: ubertooth-tx.c.s
@@ -684,7 +684,7 @@ ubertooth-tx.s: ubertooth-tx.c.s
 
 # target to generate assembly for a file
 ubertooth-tx.c.s:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-tx.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-tx.dir/ubertooth-tx.c.s
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-tx.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-tx.dir/ubertooth-tx.c.s
 .PHONY : ubertooth-tx.c.s
 
 ubertooth-util.o: ubertooth-util.c.o
@@ -693,7 +693,7 @@ ubertooth-util.o: ubertooth-util.c.o
 
 # target to build an object file
 ubertooth-util.c.o:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-util.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-util.dir/ubertooth-util.c.o
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-util.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-util.dir/ubertooth-util.c.o
 .PHONY : ubertooth-util.c.o
 
 ubertooth-util.i: ubertooth-util.c.i
@@ -702,7 +702,7 @@ ubertooth-util.i: ubertooth-util.c.i
 
 # target to preprocess a source file
 ubertooth-util.c.i:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-util.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-util.dir/ubertooth-util.c.i
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-util.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-util.dir/ubertooth-util.c.i
 .PHONY : ubertooth-util.c.i
 
 ubertooth-util.s: ubertooth-util.c.s
@@ -711,7 +711,7 @@ ubertooth-util.s: ubertooth-util.c.s
 
 # target to generate assembly for a file
 ubertooth-util.c.s:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-util.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-util.dir/ubertooth-util.c.s
+	cd /home/chris/Documents/ubertooth-git/host && $(MAKE) -f ubertooth-tools/src/CMakeFiles/ubertooth-util.dir/build.make ubertooth-tools/src/CMakeFiles/ubertooth-util.dir/ubertooth-util.c.s
 .PHONY : ubertooth-util.c.s
 
 # Help Target
@@ -791,6 +791,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/chris/Documents/ubertooth-git/host && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

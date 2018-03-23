@@ -10,9 +10,9 @@
 stdint.h
 -
 
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/ubertooth-tools/src/ubertooth-dump.c
+/home/chris/Documents/ubertooth-git/host/ubertooth-tools/src/ubertooth-dump.c
 ubertooth.h
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/ubertooth-tools/src/ubertooth.h
+/home/chris/Documents/ubertooth-git/host/ubertooth-tools/src/ubertooth.h
 getopt.h
 -
 stdlib.h

@@ -1,4 +1,4 @@
-# Install script for directory: /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/misc/udev
+# Install script for directory: /home/chris/Documents/ubertooth-git/host/misc/udev
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

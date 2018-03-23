@@ -10,7 +10,7 @@
 stdint.h
 -
 
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/ubertooth-tools/src/ubertooth-scan.c
+/home/chris/Documents/ubertooth-git/host/ubertooth-tools/src/ubertooth-scan.c
 stdlib.h
 -
 unistd.h
@@ -28,9 +28,9 @@ sys/socket.h
 sys/ioctl.h
 -
 ubertooth.h
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/ubertooth-tools/src/ubertooth.h
+/home/chris/Documents/ubertooth-git/host/ubertooth-tools/src/ubertooth.h
 ubertooth_callback.h
-/home/chris/Documents/ubertooth-git/src/ubertooth-master/host/ubertooth-tools/src/ubertooth_callback.h
+/home/chris/Documents/ubertooth-git/host/ubertooth-tools/src/ubertooth_callback.h
 btbb.h
 -
 getopt.h

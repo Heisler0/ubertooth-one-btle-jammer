@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chris/Documents/ubertooth-git/src/ubertooth-master/host
+CMAKE_SOURCE_DIR = /home/chris/Documents/ubertooth-git/host
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chris/Documents/ubertooth-git/src/ubertooth-master/host
+CMAKE_BINARY_DIR = /home/chris/Documents/ubertooth-git/host
 
 # Utility rule file for uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/chris/Documents/ubertooth-git/src/ubertooth-master/host
 include CMakeFiles/uninstall.dir/progress.make
 
 CMakeFiles/uninstall:
-	/usr/bin/cmake -P /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/cmake_uninstall.cmake
+	/usr/bin/cmake -P /home/chris/Documents/ubertooth-git/host/cmake_uninstall.cmake
 
 uninstall: CMakeFiles/uninstall
 uninstall: CMakeFiles/uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/Documents/ubertooth-git/src/ubertooth-master/host /home/chris/Documents/ubertooth-git/src/ubertooth-master/host /home/chris/Documents/ubertooth-git/src/ubertooth-master/host /home/chris/Documents/ubertooth-git/src/ubertooth-master/host /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chris/Documents/ubertooth-git/host && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/Documents/ubertooth-git/host /home/chris/Documents/ubertooth-git/host /home/chris/Documents/ubertooth-git/host /home/chris/Documents/ubertooth-git/host /home/chris/Documents/ubertooth-git/host/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

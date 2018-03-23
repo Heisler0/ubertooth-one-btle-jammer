@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chris/Documents/ubertooth-git/src/ubertooth-master/host
+CMAKE_SOURCE_DIR = /home/chris/Documents/ubertooth-git/host
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chris/Documents/ubertooth-git/src/ubertooth-master/host
+CMAKE_BINARY_DIR = /home/chris/Documents/ubertooth-git/host
 
 # Utility rule file for ubertooth-specan-ui.
 
@@ -67,10 +67,10 @@ python/specan_ui/CMakeFiles/ubertooth-specan-ui.dir/build: ubertooth-specan-ui
 .PHONY : python/specan_ui/CMakeFiles/ubertooth-specan-ui.dir/build
 
 python/specan_ui/CMakeFiles/ubertooth-specan-ui.dir/clean:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/python/specan_ui && $(CMAKE_COMMAND) -P CMakeFiles/ubertooth-specan-ui.dir/cmake_clean.cmake
+	cd /home/chris/Documents/ubertooth-git/host/python/specan_ui && $(CMAKE_COMMAND) -P CMakeFiles/ubertooth-specan-ui.dir/cmake_clean.cmake
 .PHONY : python/specan_ui/CMakeFiles/ubertooth-specan-ui.dir/clean
 
 python/specan_ui/CMakeFiles/ubertooth-specan-ui.dir/depend:
-	cd /home/chris/Documents/ubertooth-git/src/ubertooth-master/host && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/Documents/ubertooth-git/src/ubertooth-master/host /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/python/specan_ui /home/chris/Documents/ubertooth-git/src/ubertooth-master/host /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/python/specan_ui /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/python/specan_ui/CMakeFiles/ubertooth-specan-ui.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chris/Documents/ubertooth-git/host && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/Documents/ubertooth-git/host /home/chris/Documents/ubertooth-git/host/python/specan_ui /home/chris/Documents/ubertooth-git/host /home/chris/Documents/ubertooth-git/host/python/specan_ui /home/chris/Documents/ubertooth-git/host/python/specan_ui/CMakeFiles/ubertooth-specan-ui.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : python/specan_ui/CMakeFiles/ubertooth-specan-ui.dir/depend
 

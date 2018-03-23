@@ -3,7 +3,7 @@
 
 ubertooth-tools/src/CMakeFiles/ubertooth-afh.dir/ubertooth-afh.c.o
  /home/chris/Documents/libbtbb-git/pkg/libbtbb-git/usr/include/btbb.h
- /home/chris/Documents/ubertooth-git/src/ubertooth-master/host/ubertooth-tools/src/ubertooth-afh.c
+ /home/chris/Documents/ubertooth-git/host/ubertooth-tools/src/ubertooth-afh.c
  /usr/include/libusb-1.0/libusb.h
  libubertooth/src/ubertooth.h
  libubertooth/src/ubertooth_control.h

@@ -239,9 +239,27 @@ int main(int argc, char *argv[])
 	}
 
 	if (jam_mode != JAM_NONE) {
+		
+		usb_pkt_rx rx;
+
 		r = cmd_set_jam_mode(ut->devh, jam_mode);
 		cmd_set_modulation(ut->devh, MOD_BT_LOW_ENERGY);
 		printf("Jamming not supported\n");
+
+		while (1) {
+			int r = cmd_poll(ut->devh, &rx);
+			if (r < 0) {
+				printf("USB error\n");
+				break;
+			}
+			if (r == sizeof(usb_pkt_rx)) {
+				fifo_push(ut->fifo, &rx);
+				cb_btle(ut, &cb_opts);
+			}
+			usleep(500);
+		}
+		ubertooth_stop(ut);
+		
 		return 0;
 	}
 

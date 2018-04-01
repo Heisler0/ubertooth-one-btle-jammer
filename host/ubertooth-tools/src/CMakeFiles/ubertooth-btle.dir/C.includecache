@@ -27,6 +27,8 @@ unistd.h
 -
 stdlib.h
 -
+time.h
+-
 
 /usr/include/libusb-1.0/libusb.h
 stdint.h

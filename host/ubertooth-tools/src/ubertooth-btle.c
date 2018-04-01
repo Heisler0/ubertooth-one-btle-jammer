@@ -27,6 +27,7 @@
 #include <string.h>
 #include <unistd.h>
 #include <stdlib.h>
+#include <time.h>
 
 int convert_mac_address(char *s, uint8_t *o) {
 	int i;
@@ -58,6 +59,37 @@ int convert_mac_address(char *s, uint8_t *o) {
 	}
 
 	return 1;
+}
+
+/*
+ * @param interval time interval to listen in milliseconds
+ * @param channel frequency to listen on for adv
+ */
+int listenForAdvertisement(ubertooth_t* ut, double interval, u16 channel){
+	clock_t start = clock();
+	int r, packet_found = 0;
+	double msec = 0;
+	usb_pkt_rx rx;
+	cmd_set_channel(ut->devh, channel);
+	cmd_btle_sniffing(ut->devh, 2);
+	printf("listening for advertisement on channel %d\n\n", channel);
+	do{	
+		r = cmd_poll(ut->devh, &rx);
+		if (r < 0) {
+			printf("USB error\n");
+			break;
+		}
+		if (r == sizeof(usb_pkt_rx)) {
+			printf("Channel %d Packet Captured\n\n", channel);
+			packet_found = 1;
+			break;	
+		}
+		msec = ((double) clock() - start) / CLOCKS_PER_SEC;
+	} while( msec < interval );
+	printf("time listened: %f\n", msec);
+	cmd_stop(ut->devh);
+	ut->stop_ubertooth = 0;
+	return packet_found;
 }
 
 static void usage(void)
@@ -238,34 +270,148 @@ int main(int argc, char *argv[])
 		return 1;
 	}
 
-	if (jam_mode != JAM_NONE) {
-		
-		usb_pkt_rx rx;
 
-		r = cmd_set_jam_mode(ut->devh, jam_mode);
-		cmd_set_modulation(ut->devh, MOD_BT_LOW_ENERGY);
-		printf("Jamming not supported\n");
+	/*
+	 *  BEGIN JAMMING SECTION
+	*/
+	if ( jam_mode != JAM_NONE ) {
 
-		while (1) {
-			int r = cmd_poll(ut->devh, &rx);
-			if (r < 0) {
-				printf("USB error\n");
-				break;
-			}
-			if (r == sizeof(usb_pkt_rx)) {
-				fifo_push(ut->fifo, &rx);
-				cb_btle(ut, &cb_opts);
-			}
-			usleep(500);
+		u16 channel;
+		uint8_t rfduino_mac_address[6] = { 0xcf, 0x6d, 0x03, 0x2f, 0x90, 0x5e };
+
+		r = cmd_btle_set_target(ut->devh, rfduino_mac_address );
+		if (r == 0) {
+			int i;
+			printf("target set to: ");
+			for (i = 0; i < 5; ++i)
+				printf("%02x:", rfduino_mac_address[i]);
+			printf("%02x\n", rfduino_mac_address[5]);
 		}
-		ubertooth_stop(ut);
 		
-		return 0;
+		cmd_set_modulation(ut->devh, MOD_BT_LOW_ENERGY);	
+
+		// BEGIN Advertising Seqeunce Learning Algorithm
+		//
+
+		// Seqeunce variable flags
+		// l refers to monitoring a channel for 10.24 seconds, s refers to a less than 10ms
+		// Variables mapping channel numbers to frequencies
+		u16 ch_37 = 2402, ch_38 = 2426, ch_39 = 2480;
+		double l = 10.240, s = 0.010;
+
+		// Listen on channel 37	
+		// for 10.24 seconds or until a advertisement packet is found
+		int sequence_len;
+		u16 ch_sequence[3] = { 0, 0, 0 };
+		if (listenForAdvertisement(ut, l, ch_37)){
+			// listen ch 38 short
+			if (listenForAdvertisement(ut, s, ch_38)){
+				// listen ch 39 short
+				if (listenForAdvertisement(ut, s, ch_39)){
+					sequence_len = 3;
+					u16 found_sequence[3] = { ch_37, ch_38, ch_39 };
+					memcpy( ch_sequence, found_sequence, sizeof(found_sequence) );
+				}else{
+					// listen ch 39 long
+					if (listenForAdvertisement(ut, l, ch_39)){
+						// listen ch 37 short
+						if (listenForAdvertisement(ut, s, ch_37)){
+							sequence_len = 3;
+							u16 found_sequence[3] = { ch_39, ch_37, ch_38 };
+							memcpy( ch_sequence, found_sequence, sizeof(found_sequence) );
+						}else{
+							sequence_len = 3;
+							u16 found_sequence[3] = { ch_37, ch_39, ch_38 };
+							memcpy( ch_sequence, found_sequence, sizeof(found_sequence) );
+						}
+					}else{
+						sequence_len = 2;
+						u16 found_sequence[2] = { ch_37, ch_38 };
+						memcpy( ch_sequence, found_sequence, sizeof(found_sequence) );
+					}
+				}
+			}else{
+				// listen ch 38 long
+				if (listenForAdvertisement(ut, l, ch_38)){
+					// listen ch 39 short
+					if (listenForAdvertisement(ut, s, ch_39)){
+						// listen ch 37 short
+						if (listenForAdvertisement(ut, s, ch_37)){
+							sequence_len = 3;
+							u16 found_sequence[3] = { ch_38, ch_39, ch_37 };
+							memcpy( ch_sequence, found_sequence, sizeof(found_sequence) );
+						}else{
+							sequence_len = 3;
+							u16 found_sequence[3] = { ch_38, ch_37, ch_39 };
+							memcpy( ch_sequence, found_sequence, sizeof(found_sequence) );
+						}
+					}else{
+						// listen ch 39 long
+						if (listenForAdvertisement(ut, l, ch_39)){
+							sequence_len = 3;
+							u16 found_sequence[3] = { ch_39, ch_38, ch_37 };
+							memcpy( ch_sequence, found_sequence, sizeof(found_sequence) );
+						}else{
+							sequence_len = 2;
+							u16 found_sequence[2] = { ch_38, ch_37 };
+							memcpy( ch_sequence, found_sequence, sizeof(found_sequence) );
+						}
+					}
+				}else{
+					// listen ch 39 long
+					if (listenForAdvertisement(ut, l, ch_39)){
+						sequence_len = 2;
+						u16 found_sequence[2] = { ch_39, ch_37 };
+						memcpy( ch_sequence, found_sequence, sizeof(found_sequence) );
+					}else{
+						sequence_len = 1;
+						u16 found_sequence[1] = { ch_37 };
+						memcpy( ch_sequence, found_sequence, sizeof(found_sequence) );
+					}
+				}
+			}
+		} else {
+			// listen ch 38 long
+			if (listenForAdvertisement(ut, l, ch_38)){
+				// listen ch 39 short
+				if (listenForAdvertisement(ut, s, ch_39)){
+					sequence_len = 2;
+					u16 found_sequence[2] = { ch_38, ch_39 };
+					memcpy( ch_sequence, found_sequence, sizeof(found_sequence) );
+				}else{
+					// listen ch 39 long
+					if (listenForAdvertisement(ut, l, ch_39)){
+						sequence_len = 2;
+						u16 found_sequence[2] = { ch_39, ch_38 };
+						memcpy( ch_sequence, found_sequence, sizeof(found_sequence) );
+					}else{
+						sequence_len = 1;
+						u16 found_sequence[1] = { ch_38 };
+						memcpy( ch_sequence, found_sequence, sizeof(found_sequence) );
+					}
+				}
+			}else{
+				sequence_len = 1;
+				u16 found_sequence[1] = { ch_39 };
+				memcpy( ch_sequence, found_sequence, sizeof(found_sequence) );
+			}
+		}
+
+		int i; 
+		printf("channel sequence set to: { ");
+		for (i = 0; i < sequence_len; ++i)
+			printf("%d,", ch_sequence[i]);
+		printf(" }\n");
+		// STOP UBDERTOOTH
+		ubertooth_stop(ut);
 	}
+	/*
+	 * END JAMMING SECTION
+	*/
+	
 
 	if (do_follow || do_promisc) {
 		usb_pkt_rx rx;
-
 
 		if (do_follow) {
 			u16 channel;
@@ -348,3 +494,4 @@ int main(int argc, char *argv[])
 
 	return 0;
 }
+
